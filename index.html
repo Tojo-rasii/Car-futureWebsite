@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car scrolling</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <section>
+                <article>
+                    <p>Car.</p>
+                </article>
+                <article>
+                    <figure>
+                        <p id="value">Gallery</p>
+                        <p>About</p>
+                        <p>Contact</p>
+                    </figure>
+                </article>
+                <article id="close">
+                    <i class="bi-x" onclick="handleclose()"></i>
+                </article>
+            </section>
+        </header>
+
+        <main>
+            <section>
+                <article>
+                    <p>CAVALLO BULLET</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quisquam! Lorem ipsum
+                        dolor sit.</p>
+                    <p>4.2</p>
+                    <p>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                    </p>
+                </article>
+                <article>
+                    <picture>
+                        <div id="container"></div>
+                    </picture>
+                    <button onclick="handleclick()" id="btnExplore">explore</button>
+                </article>
+                <article>
+                    <h2>secs</h2>
+                    <ul>
+                        <li>
+                            <i class="bi-circle-fill"></i>
+                            <p>Lorem, ipsum.ipsum.ipsum.ipsum.</p>
+                        </li>
+                        <li>
+                            <i class="bi-circle-fill"></i>
+
+                            <p>Lorem, ipsum.ipsum.ipsum.ipsum.</p>
+                        </li>
+                        <li>
+                            <i class="bi-circle-fill"></i>
+
+                            <p>Lorem, ipsum.ipsum.ipsum.ipsum.</p>
+                        </li>
+                        <li>
+                            <i class="bi-circle-fill"></i>
+
+                            <p>Lorem, ipsum.ipsum.ipsum.ipsum.</p>
+                        </li>
+                    </ul>
+                </article>
+                <article id="colorInpt">
+                    <form>
+                        <input type="radio" name="color" value="red">
+                        <input type="radio" name="color" value="green">
+                        <input type="radio" name="color" value="yellow">
+                        <input type="radio" name="color" value="silver" checked>
+                        <input type="radio" name="color" value="blue">
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        
+
+        <footer>
+            <section>
+                <article>
+                    <p>&copy;Copyright_Car</p>
+                </article>
+                <article>
+                    <i class="bi-chevron-left prev"></i>
+                    <picture>
+                       <figure id="imgContainer">
+
+                       </figure>
+                    </picture> 
+                    <i class="bi-chevron-right next"></i>
+
+                </article>
+                <!-- <article>
+                    <i class="bi-mouse" id="mouse"></i>
+                </article> -->
+                <article>
+                    <ul>
+                        <li><i class="bi-facebook"></i></li>
+                        <li><i class="bi-youtube"></i></li>
+                        <li><i class="bi-twitter"></i></li>
+                    </ul>
+                </article>
+            </section>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
